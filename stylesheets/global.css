@@ -1,0 +1,133 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 50px;
+    padding-block: 30px;
+    background-color: white;
+    z-index: 9;
+}
+
+.favicon {
+    width: 40px;
+}
+
+.logotext {
+    width: 90px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    margin-right: 100px;
+}
+
+.nav-link {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.user-profile {
+    width: 40px;
+    border-radius: 50%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    cursor: pointer;
+}
+
+.burger-menu {
+    position: absolute;
+    right: 150px;
+    top: 80px;
+    width: 150px;
+    height: 90px;
+    border-radius: 10px;
+    z-index: 10;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    transform-origin: top right;
+    animation: slideUp ease-in-out .3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slideUp {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0.4);
+        opacity: 0;
+        display: none;
+    }
+}
+
+@keyframes slideDown {
+    0% {
+        transform: scale(0.4);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.burger-menu[data-visible] {
+    display: block;
+    animation: slideDown ease-in-out .3s;
+}
+
+.hide-on-start {
+    visibility: hidden;
+}
+
+.burger-list {
+    list-style: none;
+    text-align: right;
+    padding-left: 0;
+    padding-right: 20px;
+    line-height: 1.8;
+}
+
+.main-headings {
+    padding-left: 80px;
+    margin-bottom: 30px;
+}
+
+main {
+    margin-top: 150px;
+}
+
+footer {
+    background-color: rgb(152, 193, 217);
+    position: relative;
+    width: 100vw;
+    margin-left: -50vw;
+    left: 50%;
+    bottom: -1vw;
+    padding-block: 20px;
+    padding-left: 50px;
+}

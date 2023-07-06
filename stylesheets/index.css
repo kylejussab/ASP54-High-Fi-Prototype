@@ -1,0 +1,258 @@
+section {
+    margin-bottom: 50px;
+}
+
+.featured {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured-post {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    max-width: 1050px;
+    transition: transform 500ms ease, background 500ms ease;
+}
+
+.featured-post:hover {
+    transform: scale(0.98);
+}
+
+.featured-image {
+    width: 600px;
+}
+
+.featured-description {
+    margin-top: 30px;
+    padding-inline: 30px;
+    max-width: 450px;
+}
+
+.user-image {
+    width: 25px;
+    border-radius: 50%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.featured-author:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.verification {
+    width: 10px;
+}
+
+.like-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.likes-comments {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    width: fit-content;
+}
+
+.post-description .likes-comments {
+    gap: 10px;
+    font-size: 11px;
+}
+
+.post-description .interaction-image {
+    width: 15px;
+}
+
+.interaction-image {
+    width: 20px;
+}
+
+.bottom-row {
+    display: flex;
+    flex-direction: row;
+    align-items: last baseline;
+    justify-content: space-between;
+}
+
+.post-heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+    margin-top: -20px;
+    font-size: 12px;
+}
+
+.featured-heading-date {
+    color: rgb(238, 108, 77);
+}
+
+.featured-tags {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin-top: -10px;
+}
+
+.tag {
+    font-size: 10px;
+    padding-inline: 10px;
+    padding-block: 5px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#dm {
+    background-color: rgb(165, 200, 228);
+}
+
+#ads1 {
+    background-color: rgb(165, 200, 228);
+}
+
+#level4 {
+    background-color: rgb(244, 205, 166);
+}
+
+#interaction {
+    background-color: rgb(246, 168, 166);
+}
+
+#revision {
+    background-color: rgb(192, 236, 204);
+}
+
+#itp1 {
+    background-color: rgb(165, 200, 228);
+}
+
+#inspiration {
+    background-color: rgb(236, 213, 227);
+}
+
+#level5 {
+    background-color: rgb(107, 174, 156);
+}
+
+#ads2 {
+    background-color: rgb(224, 212, 136);
+}
+
+#animation {
+    background-color: rgb(142, 184, 61);
+}
+
+.featured-button {
+    margin-top: 30px;
+}
+
+.button {
+    background-color: rgb(41, 50, 65);
+    color: aliceblue;
+    font-size: 12px;
+    width: fit-content;
+    padding-inline: 15px;
+    padding-block: 10px;
+    border-radius: 8px;
+}
+
+.button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.other-posts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.posts-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+}
+
+.post {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    transition: transform 500ms ease, background 500ms ease;
+}
+
+.post:hover {
+    transform: scale(0.98);    
+}
+
+.post-image {
+    width: 300px;
+}
+
+.post-description {
+    margin-top: 20px;
+    padding-inline: 20px;
+    max-width: 300px;
+}
+
+.post-tags {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin-top: -5px;
+}
+
+.other-posts-link {
+    text-decoration: none;
+    color: black;
+    margin-top: 30px;
+}
+
+.other-posts-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.discussion-container {
+    width: 270px;
+    padding-inline: 10px;
+    margin-left: 150px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    transition: transform 500ms ease, background 500ms ease;
+}
+
+.discussion-container:hover {
+    transform: scale(0.98);    
+}
+
+.discussion-content {
+    font-size: 12px;
+    padding-left: 15px;
+    margin-top: 5px;
+}
+
+.discussion-container .likes-comments {
+    font-size: 10px;
+    gap: 7px;
+    margin-top: -15px;
+    margin-left: 210px;
+}
+
+.discussion-container .interaction-image {
+    width: 12px;
+}
