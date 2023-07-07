@@ -1,0 +1,269 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.main-image {
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.verification-status {
+    font-size: 11px;
+    color: gray;
+    margin-top: -18px;
+}
+
+.followers {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: -10px;
+    width: fit-content;
+    font-size: 14px;
+    align-items: center;
+}
+
+.follower-image {
+    width: 20px;
+    border-radius: 50%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.main-description {
+    width: 350px;
+    padding-inline: 30px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.main-description-heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about {
+    font-size: 12px;
+}
+
+.final-section-heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 20px;
+}
+
+.fs-element img {
+    width: 15px;
+}
+
+.fs-element {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.fs-element .active {
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(61, 90, 128);
+}
+
+.post {
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 50px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    transition: transform 500ms ease, background 500ms ease;
+}
+
+.post:hover {
+    transform: scale(0.98);    
+}
+
+.post-heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+    margin-top: -20px;
+    font-size: 12px;
+}
+
+.featured-author:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.post-image {
+    width: 300px;
+}
+
+.post-description {
+    margin-top: 20px;
+    padding-inline: 20px;
+    max-width: 300px;
+}
+
+.post-tags {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin-top: -5px;
+}
+
+.other-posts-link {
+    text-decoration: none;
+    color: black;
+    margin-top: 30px;
+}
+
+.other-posts-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.bottom-row {
+    display: flex;
+    flex-direction: row;
+    align-items: last baseline;
+    justify-content: space-between;
+}
+
+.like-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.likes-comments {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    width: fit-content;
+}
+
+.post-description .likes-comments {
+    gap: 10px;
+    font-size: 11px;
+}
+
+.post-description .interaction-image {
+    width: 15px;
+}
+
+.interaction-image {
+    width: 20px;
+}
+
+.user-image {
+    width: 25px;
+    border-radius: 50%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.tag {
+    font-size: 10px;
+    padding-inline: 10px;
+    padding-block: 5px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#fcs {
+    background-color: rgb(165, 200, 228);
+}
+
+#level4 {
+    background-color: rgb(244, 205, 166);
+}
+
+#revision {
+    background-color: rgb(192, 236, 204);
+}
+
+#animation {
+    background-color: rgb(142, 184, 61);
+}
+
+#level5 {
+    background-color: rgb(107, 174, 156);
+}
+
+#ads2 {
+    background-color: rgb(224, 212, 136);
+}
+
+#dm {
+    background-color: rgb(165, 200, 228);
+}
+
+#interaction {
+    background-color: rgb(246, 168, 166);
+}
+
+#ads1 {
+    background-color: rgb(165, 200, 228);
+}
+
+#itp1 {
+    background-color: rgb(165, 200, 228);
+}
+
+#inspiration {
+    background-color: rgb(236, 213, 227);
+}
+
+#quiz {
+    background-color: rgb(255, 230, 102);
+}
+
+.main-description-heading-account {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.main-description-heading-account img {
+    width: 15px;
+}
+
+.featured-heading-date {
+    color: rgb(238, 108, 77);
+}
+
+.verification {
+    width: 10px;
+}
+
+.posts-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+}
+
+.no-posts {
+    margin-bottom: 130px;
+    font-size: 14px;
+}

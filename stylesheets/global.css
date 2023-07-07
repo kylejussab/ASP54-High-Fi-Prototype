@@ -2,6 +2,15 @@
     font-family: Helvetica, Arial, sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h3 {
+    color: rgb(61, 90, 128);
+}
+
 header {
     position: fixed;
     width: 100%;
@@ -47,6 +56,7 @@ nav {
 
 .nav-link:hover {
     text-decoration: underline;
+    color: rgb(61, 90, 128);
 }
 
 .user-profile {
@@ -115,6 +125,22 @@ nav {
 .main-headings {
     padding-left: 80px;
     margin-bottom: 30px;
+    color: rgb(61, 90, 128);
+}
+
+.button {
+    background-color: rgb(41, 50, 65);
+    color: aliceblue;
+    font-size: 12px;
+    width: fit-content;
+    padding-inline: 15px;
+    padding-block: 10px;
+    border-radius: 8px;
+}
+
+.button:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 main {
